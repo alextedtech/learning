@@ -15,14 +15,14 @@
       <input type="text" id="last" />
       <div>
         <h2>Select a Race:</h2>
-        <input type="radio" value="Fun Run 5k" />
-        <label for="">Fun Run 5k</label>
+        <input type="radio" name="race" id="funrun" />
+        <label for="funrun">Fun Run 5k</label>
         <br />
-        <input type="radio" value="Half Marathon" />
-        <label for="">Half Marathon</label>
+        <input type="radio" name="race" id="funrun" />
+        <label for="funrun">Half Marathon</label>
         <br />
-        <input type="radio" value="Full Marathon" />
-        <label for="">Full Marathon</label>
+        <input type="radio" name="race" id="funrun" />
+        <label for="funrun">Full Marathon</label>
       </div>
       <div>
         <label for="email">Email</label>
@@ -30,6 +30,15 @@
         <label for="email">Password</label>
         <input type="password" id="password" />
       </div>
+      <div>
+        <label for="age">Select Age Group</label>
+        <select name="age" id="age">
+          <option value="Under18">Under 18</option>
+          <option value="18">18</option>
+          <option value="Over18">Over 18</option>
+        </select>
+      </div>
+      <button>Register!</button>
     </form>
   </body>
 </html>
