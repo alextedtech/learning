@@ -11,9 +11,9 @@
     <form action="">
       <div>
         <label for="first">First Name</label>
-        <input type="text" id="first" />
+        <input type="text" id="first" required/>
         <label for="last">Last Name</label>
-        <input type="text" id="last" />
+        <input type="text" id="last" required/>
       </div>
       <div>
         <h2>Select a Race:</h2>
@@ -28,16 +28,17 @@
       </div>
       <div>
         <label for="email">Email</label>
-        <input type="email" id="email" />
-        <label for="email">Password</label>
-        <input type="password" id="password" />
+        <input type="email" id="email" required/>
+        <label for="password">Password</label>
+        <input type="password" id="password" required/>
       </div>
       <div>
-        <label for="age">Select Age Group</label>
-        <select name="age" id="age">
-          <option value="Under18">Under 18</option>
-          <option value="18">18</option>
-          <option value="Over18">Over 18</option>
+        <label for="division">Select Age Group</label>
+        <select name="division" id="division">
+          <option value="kids">Under 18</option>
+          <option value="youngadults">18 - 30</option>
+          <option value="adults">31-50</option>
+          <option value="senior">51+</option>
         </select>
       </div>
       <button>Register!</button>
